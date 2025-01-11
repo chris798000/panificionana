@@ -1,6 +1,7 @@
 :root {
-  --bs-primary: #271b15;
-  --bs-secondary: #ffffff;
+  --bs-primary: #191919;
+  --bs-secondary: #c7a81c;
+  --bs-tertiary: #d6d6d6;
 }
 
 html {
@@ -72,6 +73,10 @@ h6 {
   background-color: var(--bs-primary);
 }
 
+.navbar-brand:hover {
+  opacity: 0.7;
+}
+
 #navbar a {
   color: white;
 }
@@ -124,20 +129,21 @@ footer a {
 
 #social-icon:hover {
   transform: scale(1.2);
-  color: var(--bs-primary);
+  color: var(--bs-secondary);
 }
 
 #button-story {
   width: 100%;
   background-color: white;
-  color: var(--bs-primary);
-  border: 0.5px solid var(--bs-primary);
+  color: var(--bs-secondary);
+  border: 0.5px solid var(--bs-secondary);
   white-space: nowrap;
+  background-color: var(--bs-primary);
 }
 
 #button-story:hover {
-  background-color: var(--bs-primary); /* Change background color on hover */
-  color: white; /* Change text color on hover */
+  background-color: var(--bs-secondary); /* Change background color on hover */
+  color: var(--bs-primary); /* Change text color on hover */
 }
 
 /* Ensure carousel images never exceed a maximum height */
