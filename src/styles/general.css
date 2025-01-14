@@ -1,0 +1,124 @@
+:root {
+  --bs-primary: #000000;
+  --bs-secondary: rgb(136, 95, 34);
+  --bs-tertiary: #d6d6d6;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+h3 {
+  font-size: 1.75rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1.25rem;
+}
+h6 {
+  font-size: 1rem;
+}
+
+#lead {
+  font-size: 1.25rem;
+}
+
+#contact {
+  color: var(--bs-primary);
+}
+
+#navbar {
+  background-color: var(--bs-primary);
+}
+
+.navbar-brand:hover {
+  opacity: 0.7;
+}
+
+#navbar a {
+  color: white;
+}
+
+#navbar a span:hover {
+  opacity: 0.7;
+}
+
+footer a {
+  color: var(--bs-gray);
+}
+
+#navbar-toggler {
+  border: none;
+}
+
+#navbar-toggler:focus {
+  box-shadow: none;
+  opacity: 0.7;
+}
+
+#dropdown-toggle:focus {
+  opacity: 0.7;
+}
+
+.dropdown-menu {
+  border: none;
+}
+
+.dropdown-item:hover {
+  background-color: var(--bs-primary);
+  opacity: 0.7;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23FFFFFF' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23000000' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+#social-icon:hover {
+  transform: scale(1.2);
+  color: var(--bs-secondary);
+}
+
+#button-story:hover {
+  background-color: var(--bs-secondary); /* Change background color on hover */
+  color: var(--bs-primary); /* Change text color on hover */
+}
+
+#button-story {
+  width: 100%;
+  background-color: white;
+  color: var(--bs-secondary);
+  border: 0.5px solid var(--bs-secondary);
+  white-space: nowrap;
+  background-color: var(--bs-primary);
+}

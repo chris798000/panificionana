@@ -1,0 +1,33 @@
+.google-maps {
+  position: relative;
+  padding-bottom: 75%; /* Definisco l'aspect ratio */
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 200px;
+}
+.google-maps > iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100% !important;
+  max-height: 350px;
+}
+
+#card-story img {
+  border-radius: 15px;
+}
+
+.lead {
+  font-size: 1.5rem;
+}
+
+/* Ensure carousel images never exceed a maximum height */
+.carousel-item img {
+  max-height: 600px; /* Set your desired maximum height */
+  width: 100%; /* Ensure the width scales properly */
+  object-fit: cover; /* Maintain aspect ratio without distortion */
+}
+
+.carousel-caption {
+  font-size: 1.25rem;
+}

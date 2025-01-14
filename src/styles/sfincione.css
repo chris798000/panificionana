@@ -1,0 +1,18 @@
+div.scroll-container {
+  background-color: var(--bs-secondary);
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+  max-height: 500px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+  width: 100%;
+  object-fit: cover;
+}
+
+#cta-lead {
+  font-size: 1rem;
+  opacity: 0.7;
+}
