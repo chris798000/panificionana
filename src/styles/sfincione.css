@@ -15,3 +15,10 @@ div.scroll-container img {
   font-size: 1rem;
   opacity: 0.7;
 }
+
+.button-story {
+  white-space: normal; /* Allow text to wrap */
+  word-wrap: break-word; /* Break long words */
+  width: 100%; /* Ensure the button takes full width */
+  max-width: 100%; /* Prevent overflow */
+}
