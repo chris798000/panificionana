@@ -1,5 +1,4 @@
 div.scroll-container {
-  background-color: var(--bs-secondary);
   overflow: auto;
   white-space: nowrap;
   padding: 10px;

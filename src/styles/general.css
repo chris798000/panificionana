@@ -1,7 +1,8 @@
 :root {
-  --bs-primary: #000000;
-  --bs-secondary: rgb(136, 95, 34);
-  --bs-tertiary: #d6d6d6;
+  --bs-primary: #efefef;
+  --bs-secondary: rgb(46, 32, 0);
+  --bs-tertiary: #000000;
+  --text-color: black;
 }
 
 html {
@@ -51,7 +52,7 @@ h6 {
 }
 
 #contact {
-  color: var(--bs-primary);
+  color: var(--text-color);
 }
 
 #navbar {
@@ -63,7 +64,7 @@ h6 {
 }
 
 #navbar a {
-  color: white;
+  color: var(--text-color);
 }
 
 #navbar a span:hover {

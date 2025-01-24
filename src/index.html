@@ -56,9 +56,9 @@
     <link rel="stylesheet" href="styles/general.css" />
   </head>
 
-  <body style="background-color: var(--bs-primary); color: white">
+  <body style="background-color: var(--bs-primary); color: var(--text-color)">
     <!--NAVBAR-->
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#" style="color: var(--bs-secondary)"
           >Panificio da Nanà</a
@@ -129,7 +129,7 @@
 
     <!--HERO SECTION-->
     <div
-      class="px-4 py-5 text-center d-flex flex-column justify-content-center"
+      class="text-center d-flex flex-column justify-content-center"
       style="
         background-image: url('images/hero-image.jpg');
         background-size: cover;
@@ -137,18 +137,13 @@
         background-repeat: no-repeat;
         color: white;
         position: relative;
-        height: 300px;
+        min-height: 400px;
+        padding: 70px 0;
       "
     >
-      <h1 class="display-5 fw-bold px-5" style="color: var(--bs-tertiary)">
-        Panificio da Nanà
-      </h1>
-      <div class="col-lg-6 mx-auto px-5">
-        <p
-          id="lead"
-          class="d-none d-md-block lead mb-5"
-          style="color: var(--bs-tertiary)"
-        >
+      <h1 class="display-5 fw-bold pt-3">Panificio da Nanà</h1>
+      <div class="col-lg-6 mx-auto pt-3 px-2">
+        <p id="lead" class="d-none d-md-block lead" style="margin-bottom: 30px">
           Il Panificio Nana è un angolo di Sicilia dove tradizione e qualità si
           incontrano. Specializzato in prodotti siciliani autentici, offre pane,
           dolci e specialità artigianali dal sapore inconfondibile, preparati
@@ -160,14 +155,19 @@
     <!--BESTSELLERS-->
     <div
       id="bestsellers"
-      class="d-md-none px-4 py-5 my-0 text-center"
-      style="background-color: var(--bs-primary); color: var(--bs-secondary)"
+      class="d-md-none text-center d-flex flex-column justify-content-center"
+      style="
+        background-color: var(--bs-primary);
+        color: var(--bs-secondary);
+        padding: 3rem 4rem;
+        height: 270px;
+      "
     >
       <h2>I Preferiti...</h2>
 
       <hr />
 
-      <p id="lead" class="lead m-0" style="color: var(--bs-tertiary)">
+      <p id="lead" class="lead" style="color: var(--bs-tertiary)">
         Ogni prodotto è realizzato con ingredienti freschi e genuini, per
         offrirti un’esperienza di gusto unica. Vieni a trovarci e assapora la
         bontà della tradizione!
@@ -175,11 +175,13 @@
     </div>
 
     <div
-      class="d-none d-md-flex py-5 px-0 justify-content-center align-items-center mx-auto col-12 col-md-10"
+      class="d-none d-md-flex justify-content-center align-items-center mx-auto col-12 col-md-10"
       style="
         height: 150px;
         background-color: var(--bs-primary);
         color: var(--bs-secondary);
+        padding: 3rem 4rem;
+        height: 270px;
       "
     >
       <div class="text-end">
