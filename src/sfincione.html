@@ -32,73 +32,55 @@
   >
     <!--NAVBAR-->
     <nav
-      id="navbar"
-      class="navbar navbar-expand-lg navbar-light"
-      style="z-index: 100; position: absolute; width: 100%; top: 0"
+      class="navbar navbar-expand-lg navbar-light bg-light"
+      style="z-index: 3"
     >
       <div class="container-fluid">
-        <a class="navbar-brand" href="#" style="color: var(--bs-secondary)"
-          >Panificio da Nanà</a
-        >
+        <a class="navbar-brand" href="#">Panificio da Nanà</a>
         <button
-          id="navbar-toggler"
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          style="border: none"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="index.html"
-                ><span>Home</span></a
+                >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><span>Contattaci</span></a>
+              <a class="nav-link" href="#">Contattaci</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><span>Storia</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><span>Eventi</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><span>Dove trovarci</span></a>
+              <a class="nav-link" href="#">Storia</a>
             </li>
             <li class="nav-item dropdown">
               <a
-                id="dropdown-toggle"
                 class="nav-link dropdown-toggle"
                 href="#"
-                id="navbarDropdownMenuLink"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 Prodotti
               </a>
-              <ul
-                class="dropdown-menu"
-                style="background-color: var(--bs-primary)"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
+              <ul class="dropdown-menu">
                 <li>
-                  <a
-                    class="dropdown-item"
-                    href="/src/sfincione.html"
-                    target="_blank"
+                  <a class="dropdown-item" href="sfincione.html"
                     >Sfincione e Pizza</a
                   >
                 </li>
-                <li><a class="dropdown-item" href="#">Pasticceria</a></li>
+                <li><a class="dropdown-item" href="#">Pane</a></li>
                 <li>
-                  <a class="dropdown-item" href="#">Pane</a>
+                  <a class="dropdown-item" href="#">Dolci</a>
                 </li>
               </ul>
             </li>
@@ -106,7 +88,6 @@
         </div>
       </div>
     </nav>
-
     <!-- Hero Section -->
     <div
       class="px-4 py-5 text-center d-flex flex-column justify-content-center my-3"
