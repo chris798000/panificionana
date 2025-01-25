@@ -31,3 +31,25 @@
 .carousel-caption {
   font-size: 1.25rem;
 }
+
+@media (min-width: 992px) {
+  #hero-section {
+    height: 700px;
+  }
+}
+
+/* Tablet Styles */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #hero-section {
+    height: 500px;
+  }
+}
+
+/* Mobile Styles */
+
+@media (max-width: 767px) {
+  #hero-section {
+    height: 300px;
+  }
+}
